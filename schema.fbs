@@ -1,0 +1,7 @@
+table a_table {
+    a_name:string;
+    a_value:float;
+    a_flag:bool;
+}
+
+root_type a_table;
