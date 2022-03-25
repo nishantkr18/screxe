@@ -1,0 +1,14 @@
+
+
+table Feature {
+  name:string;
+  size:uint8;
+}
+
+table Example{
+    name:string;
+    size:uint8;
+    features:[Feature];
+}
+
+root_type Example;

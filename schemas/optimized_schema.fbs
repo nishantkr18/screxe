@@ -1,0 +1,9 @@
+
+table ExampleOptimized{
+    name:string;
+    size:uint8;
+    feature_names:[string];
+    feature_sizes:[uint8];
+}
+
+root_type ExampleOptimized;
